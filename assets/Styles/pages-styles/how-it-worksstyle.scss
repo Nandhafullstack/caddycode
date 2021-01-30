@@ -1,0 +1,691 @@
+.container7 {
+    .conimg {
+        background-image: url("https://demo.6storagegates.com/wp-content/uploads/2020/06/banner2.jpg");
+        background-repeat: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        position: sticky;
+        background-size: cover;
+        .head1 {
+            margin-top: 0px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+    h2 {
+        color: #333d47;
+        font-weight: 700;
+    }
+    .subcon5 {
+        span {
+            color: #f55000;
+        }
+        button{
+            color: #000000;
+            font-weight: 600;
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+
+    .container7 {
+        .conimg {
+            height: 290px;
+            .head1 {
+                font-size: 30px;
+                padding-top: 150px;
+                margin-top: 0px;
+            }
+        }
+        .subcon1 {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            .cont0 {
+                padding: 0px 0px 0px 30px;
+                h2 {
+                    font-size: 18px;
+                    text-align: center;
+                }
+                p,
+                ul {
+                    font-size: 16px;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+
+        .subcon2 {
+            .con1 {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: row;
+                .context1 {
+                    padding: 0px 10px 0px 0px;
+                    h2 {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 16px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+
+        .subcon3 {
+            padding-top: 20px;
+            .con2 {
+                display: flex;
+                flex-direction: row;
+                .context2 {
+                    padding: 0px 0px 10px 20px;
+                    h2 {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 16px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+        .subcon4 {
+            .con3 {
+                display: flex;
+                flex-direction: row;
+                .context3 {
+                    padding: 10px 20px 0px 0px;
+                    h2 {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 16px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+
+        .subcon5 {
+            .padd {
+                padding-top: 40px;
+                display: flex;
+                flex-direction: row;
+                padding-left: 130px;
+                .bor-right {
+                    border-right: 2px solid #dadcde;
+                    height: 300px;
+                    padding: 20px;
+                }
+                .ic1,
+                .ic2 {
+                    font-size: 71px;
+                    padding: 0px 0px 0px 20px;
+                }
+                .head2,
+                .head3 {
+                    padding: 40px 80px 40px 80px;
+                    h2 {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    .top {
+                        font-size: 18px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container7 {
+        .conimg {
+            height: 350px;
+            .head1 {
+                font-size: 36px;
+                padding-top: 170px;
+                margin-top: 0px;
+            }
+        }
+        .subcon1 {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            .cont0 {
+                padding: 30px 30px 30px 50px;
+                h2 {
+                    font-size: 37px;
+                    text-align: center;
+                }
+                p,
+                ul {
+                    font-size: 18px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        .subcon2 {
+            .con1 {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: row;
+                .context1 {
+                    padding: 0px 10px 0px 0px;
+                    h2 {
+                        font-size: 37px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+
+        .subcon3 {
+            padding-top: 20px;
+            .con2 {
+                display: flex;
+                flex-direction: row;
+                .context2 {
+                    padding: 0px 0px 10px 20px;
+                    h2 {
+                        font-size: 36px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+        .subcon4 {
+            .con3 {
+                display: flex;
+                flex-direction: row;
+                .context3 {
+                    padding: 10px 20px 0px 0px;
+                    h2 {
+                        font-size: 36px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+
+        .subcon5 {
+            .padd {
+                padding-top: 40px;
+                display: flex;
+                flex-direction: row;
+                padding-left: 270px;
+                .bor-right {
+                    border-right: 2px solid #dadcde;
+                    height: 380px;
+                    padding: 20px;
+                }
+                .ic1,
+                .ic2 {
+                    font-size: 71px;
+                    padding: 0px 0px 0px 20px;
+                }
+                .head2,
+                .head3 {
+                    padding: 40px 80px 40px 80px;
+                    h2 {
+                        font-size: 31px;
+                        text-align: center;
+                    }
+                    .top {
+                        font-size: 18px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1441px) and(max-width:1999px) {
+    /* styles for browsers larger than 1440px; */
+    .container7 {
+        .conimg {
+            .head1 {
+                padding-top: 200px;
+                font-size: 40px;
+                margin-top: 0px;
+            }
+            height: 500px;
+        }
+        .subcon1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            writing-mode: sideways-rl;
+            .cont0 {
+                padding: 90px 40px 40px 95px;
+                h2 {
+                    text-align: center;
+                }
+                p,
+                ul {
+                    letter-spacing: -1px;
+                }
+            }
+        }
+        .subcon2 {
+            padding-top: 20px;
+            .con1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                writing-mode: sideways-lr;
+                .context1 {
+                    h2 {
+                        text-align: center;
+                    }
+                    p {
+                        text-align: start;
+                        padding: 20px 20px 0px 20px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+
+        .subcon3 {
+            .con2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                writing-mode: sideways-rl;
+
+                .context2 {
+                    padding: 20px 20px 20px 70px;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+        .subcon4 {
+            .con3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                writing-mode: sideways-lr;
+                .context3 {
+                    padding: 80px 20px 0px 50px;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+        .subcon5 {
+            .padd {
+                flex-direction: row;
+                display: flex;
+                padding: 50px 10px 10px 270px;
+
+                .bor-right {
+                    align-items: flex-end;
+                    border-right: 2px solid #dadcde;
+                    height: 300px;
+                    padding: 20px;
+                }
+                .head2,
+                .head3 {
+                    h2 {
+                        padding: 40px 40px 40px 40px;
+                    }
+                    .ic1,
+                    .ic2 {
+                        padding: 0px 0px 10px 90px;
+                        font-size: 62px;
+                    }
+                    .top {
+                        padding-left: 90px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+
+    .container7 {
+       
+        .conimg {
+            height: 700px;
+            .head1 {
+                font-size: 71px;
+                padding-top: 380px;
+                margin-top: 0px;
+            }
+        }
+        .subcon1 {
+            padding-left: 500px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            .cont0 {
+                padding: 30px 30px 30px 50px;
+                h2 {
+                    font-size: 37px;
+                    text-align: center;
+                }
+                p,
+                ul {
+                    font-size: 18px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        .subcon2 {
+            padding-left: 500px;
+            .con1 {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: row;
+                .context1 {
+                    padding: 0px 10px 0px 0px;
+                    h2 {
+                        font-size: 37px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+
+        .subcon3 {
+            padding-left: 500px;
+            padding-top: 20px;
+            .con2 {
+                display: flex;
+                flex-direction: row;
+                .context2 {
+                    padding: 0px 0px 10px 20px;
+                    h2 {
+                        font-size: 36px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+        .subcon4 {
+            padding-left: 500px;
+            .con3 {
+                display: flex;
+                flex-direction: row;
+                .context3 {
+                    padding: 10px 20px 0px 0px;
+                    h2 {
+                        font-size: 36px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+
+        .subcon5 {
+            padding-left: 500px;
+            .padd {
+                padding-top: 40px;
+                display: flex;
+                flex-direction: row;
+                padding-left: 270px;
+                .bor-right {
+                    border-right: 2px solid #dadcde;
+                    height: 380px;
+                    padding: 20px;
+                }
+                .ic1,
+                .ic2 {
+                    font-size: 71px;
+                    padding: 0px 0px 0px 20px;
+                }
+                .head2,
+                .head3 {
+                    padding: 40px 80px 40px 80px;
+                    h2 {
+                        font-size: 31px;
+                        text-align: center;
+                    }
+                    .top {
+                        font-size: 18px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container7 {
+        .conimg {
+            height: 500px;
+            .head1 {
+                font-size: 24px;
+                padding-top: 200px;
+                margin-top: 0px;
+            }
+        }
+        .subcon1 {
+            .cont0 {
+                h2 {
+                    font-size: 16px;
+                    text-align: center;
+                }
+                p,
+                ul {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .subcon2 {
+            .con1 {
+                h2 {
+                    font-size: 16px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .subcon3 {
+            padding-top: 20px;
+            h2 {
+                font-size: 16px;
+                text-align: center;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .subcon4 {
+            h2 {
+                font-size: 16px;
+                text-align: center;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .subcon5 {
+            .padd {
+                padding-top: 20px;
+
+                .ic1,
+                .ic2 {
+                    font-size: 36px;
+                    padding: 0px 0px 0px 100px;
+                }
+                .head2,
+                .head3 {
+                    padding: 0px 0px 0px 30px;
+                    h2 {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    
+                    .top {
+                        font-size: 12px;
+                        padding: 0px 0px 0px 85px;
+                    }
+                }
+            }
+            button{
+                padding-left: 50px;
+            }
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .container7 {
+        .conimg {
+            height: 280px;
+            .head1 {
+                font-size: 26px;
+                padding-top: 150px;
+                margin-top: 0px;
+            }
+        }
+        .subcon1 {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            .cont0 {
+                padding: 0px 0px 0px 30px;
+                h2 {
+                    font-size: 16px;
+                    text-align: center;
+                }
+                p,
+                ul {
+                    font-size: 14px;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+
+        .subcon2 {
+            .con1 {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: row;
+                .context1 {
+                    padding: 0px 10px 0px 0px;
+                    h2 {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 14px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+
+        .subcon3 {
+            padding-top: 20px;
+            .con2 {
+                display: flex;
+                flex-direction: row;
+                .context2 {
+                    padding: 0px 0px 0px 20px;
+                    h2 {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 14px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+        .subcon4 {
+            .con3 {
+                display: flex;
+                flex-direction: row;
+                .context3 {
+                    padding: 0px 10px 0px 0px;
+                    h2 {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 14px;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+        }
+
+        .subcon5 {
+            .padd {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: row;
+                padding-left: 40px;
+                .bor-right {
+                    border-right: 2px solid #dadcde;
+                    height: 200px;
+                    padding: 20px;
+                }
+                .ic1,
+                .ic2 {
+                    font-size: 62px;
+                    padding: 0px 0px 0px 20px;
+                }
+                .head2,
+                .head3 {
+                    padding: 20px 50px 20px 50px;
+                    h2 {
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    .top {
+                        font-size: 14px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

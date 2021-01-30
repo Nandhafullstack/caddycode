@@ -1,0 +1,547 @@
+.container9 {
+    .bgimg {
+        background-image: url("https://demo.6storagegates.com/wp-content/uploads/2020/06/business-banner.jpg");
+        background-repeat: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: sticky;
+        background-size: cover;
+
+        .head1 {
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 0px;
+            text-align: center;
+        }
+    }
+    .flex-column {
+        .subcon {
+            .container {
+                .head2 {
+                    font-weight: 700px;
+                }
+                .row {
+                    text-align: center;
+                    color: #333d47;
+                    .col {
+                        .context1,
+                        .context2,
+                        .context3,
+                        .context4 {
+                            i {
+                                color: #ff5000;
+                            }
+                            p {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .subcon2 {
+            .content3,
+            .content4,
+            .content5,
+            .content6 {
+                h1 {
+                    font-weight: 700;
+                    color: #333d47;
+                }
+                p {
+                    color: #979ea3;
+                }
+            }
+        }
+
+        .subcon3 {
+            .card-deck {
+                .subcard {
+                }
+                .card1,
+                .card2,
+                .card3 {
+                    .card-img-overlay {
+                        text-align: center;
+                        .card-body {
+                            background: #ff5000;
+                            h5 {
+                                color: #ffffff;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .container9 {
+        color: #333d47;
+        .bgimg {
+            .head1 {
+                padding-top: 240px;
+            }
+        }
+
+        .flex-column {
+            .container {
+                .head1 {
+                    font-size: 30px;
+                    color: #333d47;
+                    text-align: center;
+                    padding-left: 50px;
+                }
+            }
+            .subcon {
+                padding: 50px;
+                .head2 {
+                    padding-left: 80px;
+                }
+                .col {
+                    padding: 20px;
+                    i {
+                        font-size: 54px;
+                        color: #ff5000;
+                    }
+                    p {
+                        padding-top: 10px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .subcon2 {
+                padding: 50px;
+                .content3,
+                .content4,
+                .content5,
+                .content6 {
+                    h1 {
+                        font-size: 19px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 15px;
+                        color: #979ea3;
+                    }
+                }
+            }
+            .subcon3 {
+                padding: 0px;
+                .card1,
+                .card2,
+                .card3 {
+                    img {
+                        height: 270px;
+                    }
+                }
+                .card-img-overlay {
+                    padding: 100px 10px 80px 10px;
+                    text-align: center;
+                    .card-body {
+                        background: #ff5000;
+                        h5 {
+                            color: #ffffff;
+                            font-size: x-small;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container9 {
+        .bgimg {
+            height: 500px;
+            .head1 {
+                text-align: center;
+                padding-top: 300px;
+                font-size: 43px;
+                padding-top: 200px;
+            }
+        }
+        .flex-column {
+            .subcon {
+                padding: 80px 80px 50px 80px;
+                .container {
+                    .head2 {
+                        font-size: 30px;
+                        font-weight: 700px;
+                        padding-left: 170px;
+                    }
+                    .row {
+                        .col {
+                            padding: 0px;
+                            .context1,
+                            .context2,
+                            .context3,
+                            .context4 {
+                                padding-top: 40px;
+                                i {
+                                    font-size: 54px;
+                                }
+                                p {
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .subcon2 {
+                padding: 50px 50px 50px 50px;
+                .content3,
+                .content4,
+                .content5,
+                .content6 {
+                    width: 1200px;
+                    h1 {
+                        font-size: 19px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .subcon3 {
+                padding: 50px;
+                .card-deck {
+                    .subcard {
+                        padding: 10px;
+                    }
+                    .card1,
+                    .card2,
+                    .card3 {
+                        height: 550px;
+                        padding: 0px;
+                        img {
+                            height: 550px;
+                        }
+                        .card-img-overlay {
+                            padding: 240px 40px 240px 40px;
+                            text-align: center;
+                            .card-body {
+                                h5 {
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1999px) {
+    .container9 {
+        .bgimg {
+            height: 500px;
+            .head1 {
+                padding-top: 300px;
+                font-size: 43px;
+            }
+        }
+        .flex-column {
+            .subcon {
+                padding: 50px 120px 50px 120px;
+                .container {
+                    .head2 {
+                        font-size: 32px;
+                        font-weight: 700px;
+                        padding-left: 170px;
+                    }
+                    .row {
+                        padding: 0px;
+                        text-align: center;
+                        color: #333d47;
+                        .col {
+                            .context1,
+                            .context2,
+                            .context3,
+                            .context4 {
+                                i {
+                                    font-size: 54px;
+                                    padding: 10px;
+                                }
+                                p {
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .subcon2 {
+                padding: 50px 150px 50px 150px;
+                .content3,
+                .content4,
+                .content5,
+                .content6 {
+                    width: 100%;
+                    h1 {
+                        font-size: 19px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .subcon3 {
+                padding: 80px;
+                .card-deck {
+                    .subcard {
+                        padding: 10px;
+                    }
+                    .card1,
+                    .card2,
+                    .card3 {
+                        height: 550px;
+                        padding: 0px;
+                        img {
+                            height: 550px;
+                        }
+                        .card-img-overlay {
+                            padding: 240px 80px 240px 80px;
+                            text-align: center;
+                            .card-body {
+                                h5 {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .container9 {
+        .flex-column {
+            .container {
+                .head2 {
+                    font-size: 32px;
+                    padding-bottom: 40px;
+                    padding-left: 120px;
+                }
+                .context1,
+                .context2,
+                .context3,
+                .context4 {
+                    padding-top: 40px;
+                }
+            }
+            .subcon {
+                padding: 100px;
+                .container {
+                    .col {
+                        padding: 0px;
+                    }
+                }
+                .subcon2 {
+                    width: 80%;
+                    padding-left: 600px;
+                }
+            }
+            .subcon3 {
+                width: 90%;
+                .card-deck {
+                    padding-left: 450px;
+                    .card1,
+                    .card2,
+                    .card3 {
+                        height: 600px;
+                        padding: 0px;
+                        img {
+                            height: 600px;
+                        }
+                        .card-img-overlay {
+                            padding: 280px 80px 280px 80px;
+                            text-align: center;
+                            .card-body {
+                                h5 {
+                                    font-size: 29px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container9 {
+        color: #333d47;
+        .bgimg {
+            .head1 {
+                padding-top: 240px;
+            }
+        }
+        .flex-column {
+            padding: 10px;
+            padding-top: 60px;
+            .subcon {
+                .container {
+                    .head2 {
+                        font-size: medium;
+                        letter-spacing: -1px;
+                    }
+                    .col {
+                        padding: 40px;
+                        i {
+                            font-size: 54px;
+                            color: #ff5000;
+                        }
+                        p {
+                            padding-top: 10px;
+                            font-size: 15px;
+                            font-weight: 650;
+                        }
+                    }
+                }
+            }
+
+            .subcon2 {
+                padding: 5px;
+                .content3,
+                .content4,
+                .content5,
+                .content6 {
+                    h1 {
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #979ea3;
+                    }
+                }
+            }
+            .subcon3 {
+                padding: 0px;
+                .card-deck {
+                    padding-left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    .subcard {
+                        padding-top: 10px;
+                        .card1,
+                        .card2,
+                        .card3 {
+                            width: 100%;
+                            height: 100%;
+                            img {
+                                width: 100%;
+                                height: 400px;
+                            }
+                        }
+
+                        .card-img-overlay {
+                            padding: 150px 15px 150px 15px;
+                            text-align: center;
+                            .card-body {
+                                background: #ff5000;
+                                h5 {
+                                    color: #ffffff;
+                                    font-size: x-small;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .container9 {
+        color: #333d47;
+        .bgimg {
+            .head1 {
+                padding-top: 250px;
+            }
+        }
+
+        .flex-column {
+            .container {
+                .head1 {
+                    font-size: 30px;
+                    color: #333d47;
+                    text-align: center;
+                    padding-left: 50px;
+                }
+            }
+            .subcon {
+                padding: 50px;
+                .head2 {
+                    padding-left: 80px;
+                }
+                .col {
+                    padding: 20px;
+                    i {
+                        font-size: 54px;
+                    }
+                    p {
+                        padding-top: 10px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .subcon2 {
+                padding: 50px;
+                .content3,
+                .content4,
+                .content5,
+                .content6 {
+                    h1 {
+                        font-size: 19px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .subcon3 {
+                padding: 0px;
+                .card1,
+                .card2,
+                .card3 {
+                    img {
+                        height: 270px;
+                    }
+                }
+                .card-img-overlay {
+                    padding: 100px 10px 80px 10px;
+                    text-align: center;
+                    .card-body {
+                        h5 {
+                            font-size: x-small;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
