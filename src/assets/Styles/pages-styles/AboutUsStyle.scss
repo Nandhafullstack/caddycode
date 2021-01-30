@@ -681,7 +681,7 @@
         }
     }
 }
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1441px) and (max-width: 1999px) {
     /* styles for browsers larger than 1440px; */
     .container10 {
         .bgimg {
@@ -981,6 +981,9 @@
                                     border-bottom: 2px solid #2575fc;
                                 }
                             }
+                        }
+                        .carousel-indicators {
+                            padding-left: 180px;
                         }
                     }
                 }
