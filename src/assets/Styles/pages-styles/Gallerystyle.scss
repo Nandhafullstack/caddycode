@@ -1,0 +1,195 @@
+.container8 {
+    .bgimg {
+        background-image: url("https://demo.6storagegates.com/wp-content/uploads/2020/06/15709.jpg");
+        background-repeat: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        height: 800px;
+        position: sticky;
+        background-size: contain;
+        display: flex;
+        flex-direction: column-reverse;
+        .head1 {
+            background: #f55000;
+            opacity: 0.7;
+            height: 200px;
+            font-size: 30px;
+            h2 {
+                color: #ffffff;
+                text-align: center;
+                font-size: 61px;
+            }
+        }
+    }
+
+    .head2 {
+        text-align: center;
+        h2 {
+            font-weight: 700;
+        }
+    }
+    
+    .container-fluid{
+
+        .rowmain{
+            .card-img:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .container8 {
+        .bgimg {
+            .head1 {
+                h2 {
+                    padding: 40px;
+                }
+            }
+        }
+        .subcont {
+            h2 {
+                padding-top: 40px;
+                font-size: 35px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        .rowmain {
+            .colclass {
+                padding: 5px 20px 5px 20px;
+            }
+            .row1 {
+                padding-top: 40px;
+            }
+            .row12 {
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container8 {
+        .bgimg {
+            height: 880px;
+
+            .head1 {
+                height: 22%;
+                h2 {
+                    font-size: 61px;
+                    font-weight: 600;
+                }
+            }
+        }
+        
+    .container-fluid{
+
+        .rowmain{
+            .card-img:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .container8 {
+        .subcont {
+            padding: 20px 500px 20px 500px;
+        }
+        .bgimg {
+            background-size: 1600px;
+            .head1 {
+                h2 {
+                    padding: 40px;
+                }
+            }
+        }
+        .subcont {
+            h2 {
+                padding-top: 40px;
+                font-size: 35px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        
+    .container-fluid{
+
+        .rowmain{
+            .card-img:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container8 {
+        .bgimg {
+            background-size: 50em;
+            height: 600px;
+            .head1 {
+                height: 22%;
+                h2 {
+                    padding: 20px;
+                }
+            }
+        }
+        .subcont {
+            h2 {
+                padding-top: 40px;
+            }
+        }
+        .rowmain {
+            .colclass {
+                padding: 10px 20px 10px 20px;
+            }
+            .row1 {
+                padding-top: 20px;
+            }
+            .row12 {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+
+    .container8 {
+        .bgimg {
+            .head1 {
+                h2 {
+                    padding: 40px;
+                }
+            }
+        }
+        .subcont {
+            h2 {
+                padding-top: 40px;
+            }
+        }
+        .rowmain {
+            .colclass {
+                padding: 10px 20px 10px 20px;
+            }
+            .row1 {
+                padding-top: 40px;
+            }
+            .row12 {
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,310 @@
+.container3 {
+    .back {
+        background-image: url("https://demo.6storagegates.com/wp-content/uploads/2020/06/contactus-banner.jpg");
+        background-repeat: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: sticky;
+        background-size: cover;
+        .con-head1 {
+            font-size: 60px;
+            font-weight: 500;
+            position: sticky;
+            text-align: center;
+            padding-top: 120px;
+            color: #585858;
+        }
+    }
+    .map {
+        z-index: 99;
+        .img {
+            width: 100%;
+            height: 600px;
+        }
+    }
+
+    .subconatiner {
+        .maincolumn {
+            .conhead2 {
+                color: #000000;
+                font-size: 34px;
+                font-weight: 700;
+            }
+            .con-head3 {
+                font-size: 20px;
+            }
+            .con-head4 {
+                font-size: 20px;
+            }
+            .con-head4 {
+                font-size: 20px;
+            }
+            .con-head5 {
+                font-size: 20px;
+            }
+            .con-head6 {
+                font-size: 20px;
+            }
+        }
+        .contactform {
+            background: #ffffff;
+            .contact-formlabel {
+                font-weight: 800;
+                color: #000000;
+            }
+        }
+        .btn-primary {
+            background: #5cb85c;
+            border: #5cb85c;
+        }
+        .btn-primary:hover {
+            background: #4cae4c;
+        }
+    }
+}
+
+// /* Responsive Styles*/
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .container3 {
+        .back {
+            .con-head1 {
+                font-size: 55px;
+                margin-top: 0px;
+            }
+        }
+        .subconatiner {
+            .maincolumn {
+                .conhead2 {
+                    color: #000000;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+                .con-head3 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head5 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head6 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+            }
+            display: flex;
+            flex-direction: row;
+            .contactmain {
+                padding-right: 5px;
+                padding-left: 100px;
+                .contactform {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+
+    .container3 {
+        .back {
+            .con-head1 {
+                font-size: 60px;
+                margin-top: 0px;
+            }
+        }
+        .subconatiner {
+            .maincolumn {
+                .conhead2 {
+                    color: #000000;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+                .con-head3 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head5 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head6 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+            }
+            display: flex;
+            flex-direction: row;
+            .contactmain {
+                padding: 10px 10px 10px 450px;
+                .contactform {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .container3 {
+        .back {
+            .con-head1 {
+                font-size: 65px;
+                margin-top: 0px;
+            }
+        }
+        .subconatiner {
+            .maincolumn {
+                .conhead2 {
+                    color: #000000;
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+                .con-head3 {
+                    font-size: 20px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 20px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 20px;
+                    text-align: start;
+                }
+                .con-head5 {
+                    font-size: 20px;
+                    text-align: start;
+                }
+                .con-head6 {
+                    font-size: 20px;
+                    text-align: start;
+                }
+            }
+            display: flex;
+            flex-direction: row;
+            .contactmain {
+                padding: 50px 100px 50px 1200px;
+                .contactform {
+                    width: 800px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container3 {
+        .back {
+            .con-head1 {
+                font-size: 40px;
+                margin-top: 0px;
+            }
+        }
+        .subconatiner {
+            .maincolumn {
+                .conhead2 {
+                    color: #000000;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                .con-head3 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+                .con-head5 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+                .con-head6 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+            }
+        }
+        .contactmain {
+            padding-left: 15px;
+            .contactform {
+                width: 95%;
+            }
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .container3 {
+        .back {
+            .con-head1 {
+                font-size: 50px;
+                margin-top: 0px;
+            }
+        }
+        .subconatiner {
+            .maincolumn {
+                .conhead2 {
+                    color: #000000;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                .con-head3 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head4 {
+                    font-size: 18px;
+                    text-align: start;
+                }
+                .con-head5 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+                .con-head6 {
+                    font-size: 16px;
+                    text-align: start;
+                }
+            }
+            display: flex;
+            flex-direction: row;
+            .contactmain {
+                padding-right: 10px;
+                .contactform {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

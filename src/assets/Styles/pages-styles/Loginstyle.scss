@@ -1,0 +1,198 @@
+.container6 {
+    h2 {
+        text-align: center;
+        color: #ff5000;
+        font-weight: 700;
+    }
+    .border1 {
+        align-items: center;
+        border-radius: 8px;
+    }
+    .border2 {
+        border-radius: 8px;
+    }
+    .bordermain {
+        padding-left: 45%;
+    }
+    .submit-button {
+        text-align: center;
+        button {
+            background: #6d6b6b;
+            border: #5d5c5c;
+        }
+        button:hover {
+            background: linear-gradient(to bottom right, grey, #4d4c4c57);
+        }
+    }
+}
+
+/* Responsive styles*/
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+     .container6 {
+        width: 100%;
+        padding: 100px 320px 150px 320px;
+        h2 {
+            padding: 20px;
+            font-size: 34px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 40%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 40%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 38%;
+        }
+        .loginform {
+            padding: 40px 10px 40px 10px;
+        }
+    }
+}
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container6 {
+        width: 100%;
+        padding: 100px 470px 150px 470px;
+        h2 {
+            padding: 20px;
+            font-size: 34px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 40%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 40%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 38%;
+        }
+        .loginform {
+            padding: 40px 20px 40px 20px;
+        }
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1999px) {
+    /* styles for browsers larger than 1440px; */
+    .container6 {
+        width: 100%;
+        padding: 100px 500px 100px 500px;
+        h2 {
+            padding: 20px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 20%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 20%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 45%;
+        }
+        .loginform {
+            padding: 40px;
+        }
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .container6 {
+        width: 100%;
+        padding: 100px 1000px 150px 1000px;
+        h2 {
+            padding: 20px;
+            font-size: 44px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 40%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 40%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 38%;
+        }
+        .loginform {
+            padding: 60px 20px 60px 20px;
+        }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+    .container6 {
+        width: 100%;
+        padding: 50px 20px 50px 20px;
+        h2 {
+            padding: 20px;
+            font-size: 30px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 35%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 35%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 40%;
+        }
+        .loginform {
+            padding: 20px 5px 20px 5px;
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .container6 {
+        width: 100%;
+        padding: 100px 150px 100px 150px;
+        h2 {
+            padding: 20px;
+            font-size: 34px;
+        }
+        .border1 {
+            border-bottom: 6px solid #bdbdbd;
+            width: 40%;
+            align-items: center;
+        }
+        .border2 {
+            border-bottom: 4px solid #ff5000;
+            padding-top: 1px;
+            width: 40%;
+        }
+        .bordermain {
+            padding-bottom: 40px;
+            padding-left: 38%;
+        }
+        .loginform {
+            padding: 20px 20px 20px 20px;
+        }
+    }
+}

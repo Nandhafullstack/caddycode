@@ -1,0 +1,125 @@
+.navbar{
+    background: #000000;
+ul li a,
+ul li a:visited {
+    color: #ffffff !important;
+    cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .navbar-nav {
+        text-align: end;
+        font-size: 10px;
+        text-decoration: none;
+        padding-left: 19%;
+    }
+    .image {
+        width: 140px;
+    }
+    .hovermenu:hover{
+        border-bottom: 2px solid #ffffff;
+       }
+}
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .navbar-nav {
+        text-align: end;
+        font-size: 16px;
+        text-decoration: none;
+        padding-left: 22%;
+    }
+    .image {
+        width: 150px;
+    }
+    .hovermenu:hover{
+        border-bottom: 2px solid #ffffff;
+       }
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .navbar-nav {
+        text-align: end;
+        font-size: 22px;
+        text-decoration: none;
+        padding-left: 44%;
+    }
+    .image {
+        width: 200px;
+    }
+    .hovermenu:hover{
+        border-bottom: 2px solid #ffffff;
+       }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .navbar-nav {
+        text-align: start;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 4px;
+    }
+    .image {
+        width: 80px;
+    }
+ 
+}
+
+@media only screen and (device-width: 768px) {
+    .navbar-nav {
+        text-align: start;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 4px;
+    }
+    .image {
+        width: 140px;
+    }
+}
+
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .navbar-nav {
+        text-align: end;
+        font-size: 16px;
+        text-decoration: none;
+        padding-left: 22%;
+    }
+    .image {
+        width: 150px;
+    }
+    .hovermenu:hover{
+        border-bottom: 2px solid #ffffff;
+       }
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .navbar-nav {
+        text-align: end;
+        font-size: 22px;
+        text-decoration: none;
+        padding-left: 44%;
+    }
+    .image {
+        width: 200px;
+    }
+    .hovermenu:hover{
+        border-bottom: 2px solid #ffffff;
+       }
+}
+@media only screen and (min-width:1441px) and (max-width:1999px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .navbar-nav {
+        text-align: start;
+        font-size: 16px;
+        text-decoration: none;
+        padding-left: 27%;
+    }
+    .image {
+        width: 150px;
+    }
+ 
+}

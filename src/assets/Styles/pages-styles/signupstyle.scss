@@ -1,0 +1,113 @@
+.container5 {
+    .sign-head1 {
+        color: #ff5000;
+        text-transform: uppercase;
+    }
+
+    .contactform2 {
+        background: #ffffff;
+        border-radius: 3px;
+    }
+
+    .submit-button {
+        text-align: center;
+
+        button {
+            background: #ff5000;
+            border: #ff5000;
+        }
+    }
+}
+
+/* Responsive styles*/
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .container5 {
+        width: 100%;
+        padding: 50px 250px 50px 250px;
+        .contactform2 {
+            padding: 30px;
+        }
+        .sign-head1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
+@media only screen and (device-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container5 {
+        width: 100%;
+        padding: 70px 500px 70px 500px;
+
+        .contactform2 {
+            padding: 20px;
+        }
+        .sign-head1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
+
+@media only screen and (min-width: 1441px) and(max-width:1999px) {
+    /* styles for browsers larger than 1440px; */
+    .container5 {
+        width: 45%;
+        padding: 100px;
+
+        .contactform2 {
+            padding: 20px;
+        }
+        .sign-head1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .container5 {
+        width: 100%;
+        padding: 70px 1000px 70px 1000px;
+
+        .contactform2 {
+            padding: 20px;
+        }
+        .sign-head1 {
+            font-size: 40px;
+            font-weight: 800;
+        }
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container5 {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+
+        .contactform2 {
+            padding: 10px;
+        }
+        .sign-head1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .container5 {
+        width: 100%;
+        padding: 50px 120px 50px 120px;
+
+        .contactform2 {
+            padding: 30px;
+        }
+        .sign-head1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
